@@ -31,4 +31,13 @@ object RetrofitInstance {
             .build()
             .create(AuthApi::class.java)
     }
+
+    val socialApi: SocialApi by lazy {
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .client(okHttpClient)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+            .create(SocialApi::class.java)
+    }
 }

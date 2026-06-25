@@ -24,12 +24,11 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.baron.badmintonapp.ui.theme.AccentYellow
+import com.baron.badmintonapp.ui.theme.CourtGreen
+import com.baron.badmintonapp.ui.theme.CourtGreenDark
+import com.baron.badmintonapp.ui.theme.SurfaceLight
 
-// Court-inspired palette — swap these for your own theme/MaterialTheme colors later
-private val CourtGreen = Color(0xFF2E7D5B)
-private val CourtGreenDark = Color(0xFF1B4D3A)
-private val AccentYellow = Color(0xFFF4C430) // shuttlecock cork
-private val SurfaceLight = Color(0xFFF7F9F8)
 
 /**
  * Stateless login screen. Hoist [email]/[password] state out via callbacks so a
